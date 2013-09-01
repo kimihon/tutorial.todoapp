@@ -1,0 +1,163 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: tutorial.todoapp 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-15 15:01\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../chapter_3.rst:10
+msgid "Chapter 3: Custom View"
+msgstr ""
+
+#: ../chapter_3.rst:12
+msgid ""
+"In this chapter you will learn how to add a custom view -- in our case a "
+"listing of Todo Items."
+msgstr ""
+
+#: ../chapter_3.rst:16
+msgid "View class"
+msgstr ""
+
+#: ../chapter_3.rst:18
+msgid ""
+"Let's start by adding the view class. You can go to `tutorial.todoapp repo "
+"on GitHub <https://github.com/collective/tutorial.todoapp/>`_ and copy over "
+"code from ``src/tutorial/todoapp/browser/todo.py`` to your local computer or"
+" just use git:"
+msgstr ""
+
+#: ../chapter_3.rst:28
+msgid ""
+"We also need to tell Plone to display this view in the `display` drop-down "
+"menu for Folders so we will later be able to set our view as a default "
+"display view for our Todo folder. Let's do that by using git to get a "
+"version of ``Folder.xml`` and put it in "
+"``src/tutorial/todoapp/profiles/default/types``."
+msgstr ""
+
+#: ../chapter_3.rst:39
+msgid "View template"
+msgstr ""
+
+#: ../chapter_3.rst:41
+msgid ""
+"Now that we have a class we can also add the template. Go to "
+"`tutorial.todoapp repo on GitHub "
+"<https://github.com/collective/tutorial.todoapp/>`_ and copy over code from "
+"``src/tutorial/todoapp/browser/todo.pt`` to your local computer or, again, "
+"use git."
+msgstr ""
+
+#: ../chapter_3.rst:50
+msgid ""
+"The template uses ZPT syntax, `read more about it here "
+"<http://wiki.zope.org/ZPT/TutorialPart1>`_."
+msgstr ""
+
+#: ../chapter_3.rst:54
+msgid "Static resources"
+msgstr ""
+
+#: ../chapter_3.rst:56
+msgid ""
+"The template displays different icons for different workflow states of your "
+"Todo Items. We need to add these icons to your package:"
+msgstr ""
+
+#: ../chapter_3.rst:59
+msgid ""
+"Download ``open.png`` and ``completed.png`` from GitHub (they are in "
+"``src/tutorial/todoapp/browser/static``) into a new folder on your local "
+"computer: ``src/tutorial/todoapp/browser/static``. You can use again git if "
+"you don't like manual work."
+msgstr ""
+
+#: ../chapter_3.rst:68
+msgid ""
+"Tell Zope that this ``static`` folder contains static resources (icons, CCS "
+"files, JavaScript files, etc.) by adding the following lines to "
+"``src/tutorial/todoapp/browser/configure.zcml`` inside the ``<configure`` "
+"tag:"
+msgstr ""
+
+#: ../chapter_3.rst:80
+msgid ""
+"After restarting your Zope server, files in your ``static`` folder will be "
+"available on a standard URL: "
+"``http://localhost:8080/Plone/++resource++tutorial.todoapp/<filename>``"
+msgstr ""
+
+#: ../chapter_3.rst:86
+msgid "Try it out"
+msgstr ""
+
+#: ../chapter_3.rst:88
+msgid ""
+"Because the XML configuration of our product has change, we need to "
+"reinstall the product. This is accomplished by ``deactivating`` and "
+"``reactivating`` the product. Navigate to the add-ons manager or go directly"
+" to ``http://localhost:8080/Plone/@@overview-controlpanel``."
+msgstr ""
+
+#: ../chapter_3.rst:95
+msgid "Deactivate the tutorial.todoapp product, and then reactivate it."
+msgstr ""
+
+#: ../chapter_3.rst:103
+msgid ""
+"Note that every time you make a change to the xml files, by exporting or "
+"manual edit, you must reactivate the product for the changes to take effect!"
+msgstr ""
+
+#: ../chapter_3.rst:106
+msgid ""
+"Now, we apply the new view to the folder holding our todo items. Navigate to"
+" the folder you created in chapter 1, and update the display."
+msgstr ""
+
+#: ../chapter_3.rst:112
+msgid "Celebrate!"
+msgstr ""
+
+#: ../chapter_3.rst:119
+msgid "Tests"
+msgstr ""
+
+#: ../chapter_3.rst:121
+msgid ""
+"Cool, so you have verified that your code works through the browser and it's"
+" time to add tests to make sure your code keeps on working in the future."
+msgstr ""
+
+#: ../chapter_3.rst:124
+msgid ""
+"First add the following snippet to ``test_setup`` to verify that your "
+"Folders have the ``todo`` view on the `Display` drop-down menu."
+msgstr ""
+
+#: ../chapter_3.rst:148
+msgid ""
+"If you haven't already downloaded it, add a new test module: "
+"``test_todo_view.py``. Download it from GitHub, put and it in your ``tests``"
+" folder and run tests. Feel free to fiddle around with it to see what it "
+"does. As always, you can use git to get the file."
+msgstr ""
+
+#: ../chapter_3.rst:159
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../chapter_3.rst:161
+msgid ""
+"If something goes wrong you can always go to GitHub and see how the `code "
+"for chapter 3 "
+"<https://github.com/collective/tutorial.todoapp/tree/chapter3>`_ should look"
+" like and compare this to what you have on your local machine."
+msgstr ""

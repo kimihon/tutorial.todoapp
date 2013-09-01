@@ -1,0 +1,46 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: tutorial.todoapp 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-15 15:01\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../HISTORY.rst:2
+msgid "Changelog"
+msgstr ""
+
+#: ../HISTORY.rst:6
+msgid "1.0 (2012-09-11)"
+msgstr ""
+
+#: ../HISTORY.rst:8
+msgid ""
+"Acted as guinea pigs and went through the entire tutorial slowly and "
+"thoroughly. [matejc, plamut]"
+msgstr ""
+
+#: ../HISTORY.rst:12
+msgid "AJAXifying the @@todo view. [eleddy]"
+msgstr ""
+
+#: ../HISTORY.rst:15
+msgid "The @@todo BrowserView for listing Todo Items. [zupo]"
+msgstr ""
+
+#: ../HISTORY.rst:18
+msgid "Tests for GenericSetup exports of content-type and workflow. [zupo]"
+msgstr ""
+
+#: ../HISTORY.rst:21
+msgid "TTW part of the tutorial, loads of screenshots. [eleddy]"
+msgstr ""
+
+#: ../HISTORY.rst:24
+msgid "Skeleton. [zupo]"
+msgstr ""

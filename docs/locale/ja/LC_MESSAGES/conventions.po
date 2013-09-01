@@ -1,0 +1,195 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: tutorial.todoapp 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-15 15:01\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../conventions.rst:5
+msgid "Conventions"
+msgstr ""
+
+#: ../conventions.rst:8
+msgid "Line length"
+msgstr ""
+
+#: ../conventions.rst:10
+msgid ""
+"All Python code in this package should be PEP8 valid. However, we don't "
+"enforce the 80-char line length rule. It is encouraged to have your code "
+"formatted in 80-char lines, but somewhere it's just more readable to break "
+"this rule for a few characters. Long and descriptive test method names are a"
+" good example of this."
+msgstr ""
+
+#: ../conventions.rst:17
+msgid ""
+"Configuring your editor to display a line at 80th column helps a lot here "
+"and saves time."
+msgstr ""
+
+#: ../conventions.rst:21
+msgid ""
+"The line length rules also applies to non-python source files, such as "
+"documentation .rst files."
+msgstr ""
+
+#: ../conventions.rst:25
+msgid "About imports"
+msgstr ""
+
+#: ../conventions.rst:27
+msgid "Don't use * to import `everything` from a module."
+msgstr ""
+
+#: ../conventions.rst:28
+msgid "Don't use commas to import multiple stuff on a single line."
+msgstr ""
+
+#: ../conventions.rst:29
+msgid "Don't use relative paths."
+msgstr ""
+
+#: ../conventions.rst:36 ../conventions.rst:60
+msgid "instead of"
+msgstr ""
+
+#: ../conventions.rst:46
+msgid "Sort imports"
+msgstr ""
+
+#: ../conventions.rst:48
+msgid ""
+"As another imports stylistic guide: Imports of code from other modules "
+"should always be alphabetically sorted with no empty lines between imports. "
+"The only exception to this rule is to keep one empty line between a group of"
+" ``from x import y`` and a group of ``import y`` imports."
+msgstr ""
+
+#: ../conventions.rst:71
+msgid "Commit checklist"
+msgstr ""
+
+#: ../conventions.rst:73
+msgid "Before every commit you should:"
+msgstr ""
+
+#: ../conventions.rst:75
+msgid "Run :ref:`unit-tests`."
+msgstr ""
+
+#: ../conventions.rst:76
+msgid "Run :ref:`syntax-validation`."
+msgstr ""
+
+#: ../conventions.rst:77
+msgid "Add an entry to :ref:`changelog` (if applicable)."
+msgstr ""
+
+#: ../conventions.rst:78
+msgid "Add/modify :ref:`sphinx-docs` (if applicable)."
+msgstr ""
+
+#: ../conventions.rst:81
+msgid "All syntax checks and all tests can be run with a single command:"
+msgstr ""
+
+#: ../conventions.rst:90
+msgid "Unit tests"
+msgstr ""
+
+#: ../conventions.rst:92
+msgid "Un-tested code is broken code."
+msgstr ""
+
+#: ../conventions.rst:94
+msgid ""
+"For every feature you add to the codebase you must also add tests for it. "
+"Also write a test for every bug you fix to ensure it doesn't crop up again "
+"in the future."
+msgstr ""
+
+#: ../conventions.rst:98
+msgid "You run tests like this:"
+msgstr ""
+
+#: ../conventions.rst:108
+msgid "Syntax validation"
+msgstr ""
+
+#: ../conventions.rst:110
+msgid ""
+"All Python source code should be `PEP-8` valid and checked for syntax "
+"errors. Tools for checking this are `pep8` and `pyflakes`."
+msgstr ""
+
+#: ../conventions.rst:113
+msgid "To validate your source code, run the following two commands:"
+msgstr ""
+
+#: ../conventions.rst:122
+msgid ""
+"It pays off to invest a little time to make your editor run `pep8` and "
+"`pyflakes` on a file every time you save that file. Saves lots of time in "
+"the long run."
+msgstr ""
+
+#: ../conventions.rst:130
+msgid "Changelog"
+msgstr ""
+
+#: ../conventions.rst:132
+msgid ""
+"Feature-level changes to code are tracked inside ``docs/HISTORY.txt``. "
+"Examples:"
+msgstr ""
+
+#: ../conventions.rst:134
+msgid "added feature X"
+msgstr ""
+
+#: ../conventions.rst:135
+msgid "removed Y"
+msgstr ""
+
+#: ../conventions.rst:136
+msgid "fixed bug Z"
+msgstr ""
+
+#: ../conventions.rst:138
+msgid "Add an entry every time you add/remove a feature, fix a bug, etc."
+msgstr ""
+
+#: ../conventions.rst:143
+msgid "Sphinx documentation"
+msgstr ""
+
+#: ../conventions.rst:145
+msgid "Un-documented code is broken code."
+msgstr ""
+
+#: ../conventions.rst:147
+msgid ""
+"For every feature you add to the codebase you should also add documentation "
+"for it to ``docs/``."
+msgstr ""
+
+#: ../conventions.rst:150
+msgid ""
+"After adding/modifying documentation, re-build `Sphinx` and check how it is "
+"displayed:"
+msgstr ""
+
+#: ../conventions.rst:158
+msgid ""
+"Documentation is automatically generated from these source files every time "
+"you push your code to GitHub. The post-commit hook is handled by ReadTheDocs"
+" and the results are visible at "
+"http://tutorialtodoapp.readthedocs.org/en/latest/."
+msgstr ""
